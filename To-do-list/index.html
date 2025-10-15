@@ -90,6 +90,17 @@ function addTask() {
             alert("Please enter a valid task.");
         }
 }
+
+function editTask(span){
+    const newTask = prompt("Edit your task");
+    let taskText1 = newTask.trim();
+    
+    if (taskText1 !== "") {
+        span.textContent = taskText1;
+    }
+}
+
+
 </script>
 
 </body>
