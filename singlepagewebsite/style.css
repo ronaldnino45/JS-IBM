@@ -36,6 +36,9 @@ body {
 .profile_name {
   float: left;
   padding-left: 2cm;
+  color:#FFD700;
+  font-size: 30px;
+
   /* Add the styles here */
 }
 
