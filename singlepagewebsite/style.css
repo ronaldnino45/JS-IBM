@@ -25,6 +25,8 @@ body {
 
 .topmenu:hover {
   color: white;
+  font-weight: bolder;
+  text-decoration: underline;
   /* Add the styles here */
 }
 
@@ -92,6 +94,7 @@ h2 {
 .about-me {
   display: flex;
   align-items: center;
+
 }
 
 #about-me h1 {
@@ -107,7 +110,7 @@ h2 {
 }
 
 .profile_image {
-  width: 550px;
+  width: 300px;
   height: fit-content;
   vertical-align: middle;
   margin: 5px;
